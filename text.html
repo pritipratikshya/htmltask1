@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge - 2</title>
+</head>
+<body>
+    <h1>HTML (HyperText Markup Language)</h1>
+    <p>It is standard language used to creat and design <u>webpage</u> on internet.</p>
+    <br>
+    <form>
+        <ol>
+          <li>
+            HTML is an?
+            <ul>
+              <li> Markup language</li>
+              <li> Programming language</li>
+              <li>None of the above</li>
+            </ul>
+            <p>Ans: <input type="text" name="html_answer" placeholder="Your answer"></p>
+          </li>
+    
+          <li>
+            CSS is used for?
+            <ul>
+              <li> Styling</li>
+              <li> Scripting</li>
+              <li> None of the above</li>
+            </ul>
+            <p>Ans: <input type="text" name="css_answer" placeholder="Your answer"></p>
+          </li>
+        </ol>
+      </form>
+
+    <br>
+    <table>
+        <tr>
+            <td colspan="6" style="text-align: center; font-size: 1.5em;">
+                TIME TABLE
+            </td>
+        </tr>
+        <tr>
+            <th>Day/Period</th>
+            <th>I</th>
+            <th>II</th>
+            <th>Lunch</th>
+            <th>III</th>
+            <th>IV</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Eng</td>
+            <td>Math</td>
+            <td rowspan="5">Lunch</td>
+            <td>EVS</td>
+            <td>LAB</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Eng</td>
+            <td>Math</td>
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2">LAB</td> 
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Eng</td>
+            <td>Math</td>
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan="2">SEMINAR</td> 
+            <td colspan="2">Sports</td> 
+        </tr>
+        <tr>
+            <td colspan="6" style="text-align: center;">
+                School Timing: 10:00 am to 4:00 pm
+            </td>
+        </tr>
+    </table>
+    <style>
+        table {
+            width: 80%;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        td[colspan="6"] {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    </style>
+     
+     <br>
+    <h2>Create Form Challenge:</h2>
+    <p>Please share your personal details here:</p>
+
+    <!-- Personal Information Section -->
+    <fieldset>
+        <legend>Personal Information</legend>
+        
+        <label for="first-name">First name:</label>
+        <input type="text" id="first-name" name="first-name"><br><br>
+
+        <label for="last-name">Last name:</label>
+        <input type="text" id="last-name" name="last-name"><br><br>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+    </fieldset>
+
+    <!-- Further Information Section -->
+    <fieldset>
+        <legend>Further Information</legend>
+
+        <label for="favColor">favorite color:</label>
+        <input type="color" id="favColor" name="favColor" ><br><br>
+
+        <label for="favorite-pet">What's your favorite pet?</label>
+        <input type="text" id="favorite-pet" name="favorite-pet"><br><br>
+
+        <label>Do you like:</label><br>
+        <input type="radio" id="mountains" name="preference" value="mountains">
+        <label for="mountains">Mountains</label><br>
+
+        <input type="radio" id="beaches" name="preference" value="beaches">
+        <label for="beaches">Beaches</label><br><br>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+
+
+
+</body>
+</html>
